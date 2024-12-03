@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Fullscreen Demo</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet"> 
+</head>
+<body>
+   <div class="container p-3 my-3 bg-dark text-grey">
+        <!-- Jumbotron Section -->
+       <div class="p-5 bg-dark rounded-lg">
+            <h1 class="display-4">Bootstrap Tutorial</h1>
+            <p class="lead">Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+        </div>
+        <div class = "container">
+        <form action = "/action_page_process_data.php">
+        <h1 style = "text-align : center" Create an Article> Create an article...</h1>
+        <input class = "form-control" type = "text" name = "" value = "enter article name" id = "name">
+        <h1 style = "text-align : center" Create an Article> choose an image</h1>
+        <input class = "form-control" type = "file" name = "" value = "" id = "file">
+        <h1 style ="text-align:center">Article Text :</h1>
+        <textarea class = "form-control" rows = "5" id = "txtA" ></textarea>
+        <h1 style = "text-align : center" Create an Article id = "cart">Article Category</h1>
+        <input class = "form-control" type = "text" name = "" value = "">
+        <br>
+        <button type = "Submit" class= "button" class="btn btn-primary" id = "submit">Submit</button>
+    </form>
+    </div>
+</div>
+<h1> Create new Article </h1>
+    <!-- JavaScript Libraries -->
+    <script src="./js/jquery.js" defer></script>
+    <script src="./js/popper.min.js" defer></script>
+    <script src="./js/bootstrap.min.js" defer></script>
+</body>
+</html>
+
